@@ -1,0 +1,42 @@
+@import "home";
+@import "about";
+@import "footer";
+@import "header";
+
+body{
+    background-image: url("assets/images/bgtemplate4.png");
+    background-size: 100% 872px;
+    margin: 0px !important;
+}
+
+.hero-banner__description{
+    color:red
+}
+
+.flex {
+    display: flex;
+}
+.flex-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-display-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-display-start{
+    display: flex;
+    justify-self: start;
+    flex-direction: column;
+}
+
+.flex-display-alignstart{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}

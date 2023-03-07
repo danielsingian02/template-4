@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@700;300;500&display=swap');
+
+ul#primary-menu {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 425px) {
+        flex-direction: column;
+    }
+}
+
+.site-header{
+    background-color: #0000009c;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    @media only screen and (max-width: 768px) {
+        padding: 0px;
+    }
+}
+
+a:-webkit-any-link{
+    text-decoration: none !important;
+    color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 425px) {
+        color: black;
+        flex-direction: column;
+        align-items: start;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+a:hover {
+    @media only screen and (max-width: 425px) {
+        background: #00000045;
+    }
+}
+
+.site-branding__burger {
+    display: none;
+    @media only screen and (max-width: 425px) {
+        display: block;
+        padding: 10px;
+        background-color: #0000009c;
+        width: 100%;
+    }
+}
+
+nav#site-navigation{
+    @media only screen and (max-width: 425px) {
+        display: none;
+    }
+}
+
+#burger-navigationP{
+    display: block;
+    color: black;
+}
