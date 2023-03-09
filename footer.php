@@ -12,7 +12,16 @@
 ?>
 <footer id="colophon" class="site-footer flex-display-column">
 	<?php $footericon = get_field ('footer_icon')?>
-	<img src="<?php echo $footericon?>" alt="">
+	<?php
+		if ( function_exists('the_custom_logo') && (! empty(get_custom_logo())) ) :
+			the_custom_logo(); ?>
+		<?php
+		else :
+			?>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<?php
+		endif;
+	?>
 	<?php 
 	$sitetitle = get_field('site_title');
 	if(empty($sitetitle)){?>
