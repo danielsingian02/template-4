@@ -3,13 +3,13 @@
 
 /* Hero Banner */
 
-.hero-banner{
+.hero-banner {
     margin: 7em;
     padding: 7em;
 }
 
-.hero-banner__logo-name{
-    color:white;
+.hero-banner__logo-name {
+    color: white;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 48px;
@@ -18,23 +18,23 @@
 /* end of Hero Banner */
 
 /* About */
-.about-section{
-    background-color: rgb(255,255,255, .9);
+.about-section {
+    background-color: rgb(255, 255, 255, .9);
     margin: 7em;
     padding-top: 5em;
 }
 
-.about__heading{
+.about__heading {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 48px;
 }
 
-.about-container__first-row.flex{
+.about-container__first-row.flex {
     padding: 30px 0px 30px 30px;
 }
 
-.about-container__second-row.flex{
+.about-container__second-row.flex {
     padding: 30px 0px 30px 30px;
 }
 
@@ -43,134 +43,134 @@
 }
 
 
-    // first column 
+// first column 
 
-        .about-container__first-row-col1{
-            width: 50%;
-            padding-right: 5em;
-            padding-left: 50px;
+.about-container__first-row-col1 {
+    width: 50%;
+    padding-right: 5em;
+    padding-left: 50px;
 
-        }
+}
 
-        .about__first-row-title{
-            font-family: 'Playfair Display', serif;
-            font-weight: 400;
-            font-size: 35px;
-        }
+.about__first-row-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 35px;
+}
 
-        .about__first-row-description{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 15px;
-            font-weight: 300;
-            line-height: 30px;
-        }
+.about__first-row-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
 
-        .about-container__first-row-col2{
-            width: 50%;
-        }
+.about-container__first-row-col2 {
+    width: 50%;
+}
 
-        img.about__first-row-image {
-            width: 100%;
-        }
+img.about__first-row-image {
+    width: 100%;
+}
 
-    // end of first column
+// end of first column
 
-    // second column
+// second column
 
-        .about-container__second-row-col1{
-            width: 50%;
-        }
+.about-container__second-row-col1 {
+    width: 50%;
+}
 
-        .about__second-row-title{
-            font-family: 'Playfair Display', serif;
-            font-weight: 400;
-            font-size: 35px;
-        }
+.about__second-row-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 35px;
+}
 
-        .about__second-row-description{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 15px;
-            font-weight: 300;
-            line-height: 30px;
-        }
+.about__second-row-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
 
-        .about-container__second-row-col2{
-            width: 50%;
-            padding-right: 50px;
-            padding-left: 5em;
-        }
+.about-container__second-row-col2 {
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 5em;
+}
 
-        img.about__second-row-image {
-            width: 100%;
-        }
-
-
-    // end of second column
-
-    // third column
-
-        .about-container__third-row-col1{
-            width: 50%;
-            padding-right: 5em;
-            padding-left: 50px;
-        }
-
-        .about__third-row-title{
-            font-family: 'Playfair Display', serif;
-            font-weight: 400;
-            font-size: 35px;
-        }
-        
-        .about__third-row-description{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 15px;
-            font-weight: 300;
-            line-height: 30px;
-        }
-
-        .about-container__third-row-col2{
-            width: 50%;
-        }
-
-        img.about__third-row-image {
-            width: 100%;
-        }
+img.about__second-row-image {
+    width: 100%;
+}
 
 
-    // end of third column
+// end of second column
+
+// third column
+
+.about-container__third-row-col1 {
+    width: 50%;
+    padding-right: 5em;
+    padding-left: 50px;
+}
+
+.about__third-row-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.about__third-row-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.about-container__third-row-col2 {
+    width: 50%;
+}
+
+img.about__third-row-image {
+    width: 100%;
+}
+
+
+// end of third column
 
 /* Review */
 
-.review{
+.review {
     text-align: center;
 }
 
-.review__head{
+.review__head {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 43px;
 }
 
-.review__sub-head{
+.review__sub-head {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-.review__card{
+.review__card {
     display: flex;
     background-color: #F2F2F2;
     padding: 50px;
 }
 
-.review__card-one{
+.review__card-one {
     background-color: white;
     margin: 10px;
     padding: 20px;
     width: 50%;
 }
 
-.review__card-two{
+.review__card-two {
     background-color: white;
     margin: 10px;
     padding: 20px;
@@ -183,22 +183,22 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    width:60%
-    }
-    
-    .review__picture { 
-        grid-area: 1 / 1 / 3 / 2;
-     }
+    width: 60%
+}
 
-    .review__name { 
-        grid-area: 1 / 2 / 2 / 4; 
-    }
-    
-    .review__description { 
-        grid-area: 2 / 2 / 3 / 4;
-     }
+.review__picture {
+    grid-area: 1 / 1 / 3 / 2;
+}
 
-.review__col1{
+.review__name {
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.review__description {
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+.review__col1 {
     width: 10%;
 }
 
@@ -211,7 +211,7 @@ p.review__comment {
     text-align: left;
 }
 
-p.review-name{
+p.review-name {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 16px;
@@ -219,7 +219,7 @@ p.review-name{
     text-align: left;
 }
 
-p.review-description{
+p.review-description {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -227,7 +227,7 @@ p.review-description{
     text-align: left;
 }
 
-.review__col2{
+.review__col2 {
     width: 90%;
     padding-left: 20px;
 }
@@ -241,71 +241,71 @@ p.review-description{
 
 /* Gallery */
 
-.gallery-section{
+.gallery-section {
     text-align: center;
     color: white;
     margin: 7em;
 }
 
-.gallery__head{
+.gallery__head {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 42px;
 }
 
-.gallery__description{
+.gallery__description {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-.gallery__collage{
+.gallery__collage {
     width: 100%;
     padding-top: 30px;
     flex-wrap: wrap;
 }
 
-.gallery__image1{
+.gallery__image1 {
     width: 20%;
 }
 
-.gallery__image2{
+.gallery__image2 {
     width: 20%;
 }
 
-.gallery__image3{
+.gallery__image3 {
     width: 20%;
 }
 
-.gallery__image4{
+.gallery__image4 {
     width: 20%;
 }
 
-.gallery__image5{
+.gallery__image5 {
     width: 20%;
 }
 
-.galleryimg1{
+.galleryimg1 {
     width: 100%;
 }
 
-.galleryimg1{
+.galleryimg1 {
     width: 100%;
 }
 
-.galleryimg2{
+.galleryimg2 {
     width: 100%;
 }
 
-.galleryimg3{
+.galleryimg3 {
     width: 100%;
 }
 
-.galleryimg4{
+.galleryimg4 {
     width: 100%;
 }
 
-.galleryimg5{
+.galleryimg5 {
     width: 100%;
 }
 
@@ -313,7 +313,7 @@ p.review-description{
 
 /* Map */
 
-.map{
+.map {
     margin: 7em;
 }
 
@@ -326,233 +326,230 @@ p.review-description{
 
 @media only screen and (max-width: 768px) {
 
-/* Hero Banner */
+    /* Hero Banner */
 
-.hero-banner{
-    padding:0px;
-}
+    .hero-banner {
+        padding: 0px;
+    }
 
-/* end of Hero Banner */
+    /* end of Hero Banner */
 
-/* About */
+    /* About */
 
-.about-section{
-    padding-top: 2em;
-}
+    .about-section {
+        padding-top: 2em;
+    }
 
-.about__heading {
-    font-size: 35px;
-    padding: 20px 0 20px 0;
-}
+    .about__heading {
+        font-size: 35px;
+        padding: 20px 0 20px 0;
+    }
 
-.about-container__second-column.flex{
-    flex-direction: column;
-    padding: 0px 0px 30px 0px;
-}
+    .about-container__second-column.flex {
+        flex-direction: column;
+        padding: 0px 0px 30px 0px;
+    }
 
-.about-container__third-column.flex{
-    flex-direction: column-reverse;
-}
+    .about-container__third-column.flex {
+        flex-direction: column-reverse;
+    }
 
-.about-container__first-row.flex{
-    flex-direction: column-reverse;
-    padding: 0px;
-}
+    .about-container__first-row.flex {
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
 
 
     // first column 
 
-        .about-container__first-row-col1{
-            width: 100%;
-            text-align: center;
-            padding: 0px;
-        }
+    .about-container__first-row-col1 {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
 
-        .about__first-row-description{
-            padding: 0px 20px 20px 20px;
-        }
+    .about__first-row-description {
+        padding: 0px 20px 20px 20px;
+    }
 
-        .about__first-row-title{
-            font-family: 'Playfair Display', serif;
-            font-weight: 400;
-            font-size: 35px;
-            padding-top: 20px;
-        }
+    .about__first-row-title {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 35px;
+        padding-top: 20px;
+    }
 
-        .about__first-row-description{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 15px;
-            font-weight: 300;
-            line-height: 30px;
-        }
+    .about__first-row-description {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+    }
 
-        .about-container__first-row-col2{
-            width: 100%;
-        }
+    .about-container__first-row-col2 {
+        width: 100%;
+    }
 
-        img.about__first-row-image {
-            width: 100%;
-        }
+    img.about__first-row-image {
+        width: 100%;
+    }
 
     // end of first column
 
     // second column 
 
-        .about-container__second-row-col1{
-            width: 100%;
-        }
+    .about-container__second-row-col1 {
+        width: 100%;
+    }
 
-        .about-container__second-row-col2{
-            width: 100%;
-            padding: 0px;
-            text-align: center;
-        }
+    .about-container__second-row-col2 {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
 
-        .about__second-row-title{
-            font-family: 'Playfair Display', serif;
-            font-weight: 400;
-            font-size: 35px;
-            padding-top: 20px;
-        }
+    .about__second-row-title {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 35px;
+        padding-top: 20px;
+    }
 
-        .about__second-row-description{
-            padding: 0px 20px 20px 20px;
-        }
+    .about__second-row-description {
+        padding: 0px 20px 20px 20px;
+    }
 
     // end of second column
 
     // third column
-        .about-container__third-row-col1{
-            width: 100%;
-            padding: 0px;
-            text-align: center;
-        }
+    .about-container__third-row-col1 {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
 
-        .about-container__third-row-col2{
-            width: 100%;
-        }
+    .about-container__third-row-col2 {
+        width: 100%;
+    }
 
-        .about__third-row-title{
-            font-family: 'Playfair Display', serif;
-            font-weight: 400;
-            font-size: 35px;
-            padding-top: 20px;
-        }
+    .about__third-row-title {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 35px;
+        padding-top: 20px;
+    }
 
-        .about__third-row-description{
-            padding: 0px 20px 20px 20px;
-        }
+    .about__third-row-description {
+        padding: 0px 20px 20px 20px;
+    }
 
     //end of third column
 
-/* end of About */
+    /* end of About */
 
-/* Review */
+    /* Review */
 
-.review__card {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    row-gap: 20px;
-}
+    .review__card {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        row-gap: 20px;
+    }
 
-.review{
-    padding: 20px;
-}
+    .review {
+        padding: 20px;
+    }
 
-.review__col2{
-    width: 50%;
-}
+    .review__col2 {
+        width: 50%;
+    }
 
-.review__card-one{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-}
+    .review__card-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
 
-.review__card-two{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
+    .review__card-two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
 
-.review__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .review__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-p.review__comment {
-    text-align: center;
-    padding: 20px;
-}
+    p.review__comment {
+        text-align: center;
+        padding: 20px;
+    }
 
-.review__card-two{
-    width: 100%;
-}
+    .review__card-two {
+        width: 100%;
+    }
 
-/* end of Review */
+    /* end of Review */
 
-/* Gallery */
+    /* Gallery */
 
-.gallery__collage{
-}
+    .gallery__image1 {
+        width: 50%;
+    }
 
-.gallery__image1{
-    width: 50%;
-}
+    .gallery__image2 {
+        width: 50%;
+    }
 
-.gallery__image2{
-    width: 50%;
-}
+    .gallery__image3 {
+        width: 50%;
+    }
 
-.gallery__image3{
-    width: 50%;
-}
+    .gallery__image4 {
+        width: 50%;
+    }
 
-.gallery__image4{
-    width: 50%;
-}
+    .gallery__image5 {
+        width: 50%;
+    }
 
-.gallery__image5{
-    width: 50%;
-}
+    .galleryimg1 {
+        width: 50%;
+    }
 
-.galleryimg1{
-    width: 50%;
-}
+    .galleryimg1 {
+        width: 100%;
+    }
 
-.galleryimg1{
-    width: 100%;
-}
+    .galleryimg2 {
+        width: 100%;
+    }
 
-.galleryimg2{
-    width: 100%;
-}
+    .galleryimg3 {
+        width: 100%;
+    }
 
-.galleryimg3{
-    width: 100%;
-}
+    .galleryimg4 {
+        width: 100%;
+    }
 
-.galleryimg4{
-    width: 100%;
-}
+    .galleryimg5 {
+        width: 100%;
+    }
 
-.galleryimg5{
-    width: 100%;
-}
-
-/* end of Gallery */
+    /* end of Gallery */
 
 }
 
@@ -562,62 +559,62 @@ p.review__comment {
 
 @media only screen and (max-width: 425px) {
 
-/* Hero */
+    /* Hero */
 
-.hero-banner{
-    margin: 2em;
-}
+    .hero-banner {
+        margin: 2em;
+    }
 
-.hero-banner__logo-name{
-    text-align: center;
-}
+    .hero-banner__logo-name {
+        text-align: center;
+    }
 
-/* end of Hero */
+    /* end of Hero */
 
-/* about */
+    /* about */
 
-.about-section{
-    margin: 2em;
-}
+    .about-section {
+        margin: 2em;
+    }
 
-.about__heading{
-    text-align: center;
-}
+    .about__heading {
+        text-align: center;
+    }
 
-/* review section */
+    /* review section */
 
-.review__container{
-    width: 100%;
-}
+    .review__container {
+        width: 100%;
+    }
 
-.review__col1 {
-    width: 40%;
-}
+    .review__col1 {
+        width: 40%;
+    }
 
-.review__col2 {
-    width: 100%;
-}
+    .review__col2 {
+        width: 100%;
+    }
 
-/* end of review section */
+    /* end of review section */
 
-/* gallery section */
+    /* gallery section */
 
-.gallery-section{
-    margin: 2em;
-}
+    .gallery-section {
+        margin: 2em;
+    }
 
-/* end of gallery section */
+    /* end of gallery section */
 
-/* map section */
+    /* map section */
 
-.map{
-    margin: 2em;
-    text-align: center;
-}
+    .map {
+        margin: 2em;
+        text-align: center;
+    }
 
-/* end of map section */
+    /* end of map section */
 
-/* end of about */
+    /* end of about */
 
 
 }
